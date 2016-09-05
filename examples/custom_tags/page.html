@@ -4,3 +4,35 @@
     <li><a href="{% url 'settings' %}">Settings</a></li>
   </ul>
 </nav>
+
+{% set mvar = "x-var!" %}
+{% set myvar = "{{mvar}}!<p>asds</p>" %}
+{% set test0 = {test1: 'test1', test2: 'test2'} %}
+
+<hr>
+
+<script>
+{% include "./test_page.js" raw %}
+</script>
+
+<script>
+{% include "./test_page1.js" raw %}
+</script>
+
+<script>
+{% include "./test_page1.js"  %}
+</script>
+
+
+<hr>
+
+{% autoescape false %}{{ myvar }}{% endautoescape %}
+
+
+<hr>
+
+{{myvar}}
+
+<hr>
+
+{% raw %}{{ myvar }}{% endraw %}
