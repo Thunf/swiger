@@ -1,0 +1,23 @@
+<style>
+    pre{background: #000; color: #ddd; padding: 1em;}
+</style>
+
+include with parse:
+<pre>
+{% include "./script_0.js" %}
+</pre>
+
+<hr>
+
+include without parse:
+<pre>
+{% include "./script_1.js" raw %}
+</pre>
+
+<script>
+{% include "./script_0.js" %}
+</script>
+
+<script>
+{% include "./script_1.js" raw %}
+</script>
