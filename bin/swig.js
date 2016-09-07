@@ -91,7 +91,7 @@ if (argv.o !== 'stdout') {
   argv.o = path.normalize(argv.o);
 
   try {
-    fs.mkdirSync(argv.o);
+      !fs.existsSync(argv.o) && fs.mkdirSync(argv.o);
   } catch (e) {
     if (e.errno !== 47) {
       throw e;
