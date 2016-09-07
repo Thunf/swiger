@@ -7,6 +7,13 @@ describe('Tag: include', function () {
     expect(s.render('{% include "foobar" %}')).to.equal('tacos!');
   });
 
+  describe('{% include "foobaz" raw %}', function () {
+    it('dose not parse file if work with option raw', function () {
+      var s = new swig.Swig({ loader: swig.loaders.memory({ '/foo/foobaz': "'{{tacos!}}'" }, '/foo')});
+      expect(s.render('{% include "foobaz" raw %}')).to.equal("'{{tacos!}}'");
+    });
+  });
+
   describe('{% include "foo" ignore missing %}', function () {
     it('does not throw if missing', function () {
       expect(swig.render('{% include "foo" ignore missing %}', { filename: '/foo' }))
