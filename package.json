@@ -48,7 +48,7 @@
   },
   "scripts": {
     "prepublish": "npm prune && make build",
-    "test": "make lint && make test reporter=spec && make test-browser && make coverage cov-reporter=travis-cov",
+    "test": "make test reporter=spec && make test-browser && make coverage cov-reporter=travis-cov",
     "travis-cov": {
       "threshold": 95
     }
