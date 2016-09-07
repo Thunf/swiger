@@ -1,4 +1,4 @@
-Swig [![Build Status](http://img.shields.io/travis/thunf/swiger/master.svg?style=flat)](http://travis-ci.org/thunf/swiger) [![Dependency Status](http://img.shields.io/gemnasium/thunf/swiger.svg?style=flat)](https://gemnasium.com/thunf/swiger) [![NPM version](http://img.shields.io/npm/v/swig.svg?style=flat)](https://www.npmjs.org/package/swig) [![NPM Downloads](http://img.shields.io/npm/dm/swig.svg?style=flat)](https://www.npmjs.org/package/swig)
+Swig [![Build Status](http://img.shields.io/travis/thunf/swiger/master.svg?style=flat)](http://travis-ci.org/thunf/swiger) [![Dependency Status](http://img.shields.io/gemnasium/thunf/swiger.svg?style=flat)](https://gemnasium.com/thunf/swiger) [![NPM version](http://img.shields.io/npm/v/swiger.svg?style=flat)](https://www.npmjs.org/package/swiger) [![NPM Downloads](http://img.shields.io/npm/dm/swiger.svg?style=flat)](https://www.npmjs.org/package/swiger)
 ====
 
 [Swig](http://thunf.github.io/swiger/) is an awesome, Django/Jinja-like template engine for node.js.
@@ -14,7 +14,7 @@ Thank Paul and previous swig collabs for their hard and excellent work!
 Documentation
 -------------
 
-All documentation can be viewed online on the [Swig Website](http://thunf.github.io/swiger/).
+All documentation can be viewed online on the [Swiger Website](http://thunf.github.io/swiger/).
 
 
 Features
@@ -34,7 +34,7 @@ Features
 Installation
 ------------
 
-    npm install swig
+    npm install swiger
 
 Basic Example
 -------------
@@ -80,7 +80,6 @@ Need Help? Have Questions? Comments?
 
 * [Mailing List/Google Group](http://groups.google.com/forum/#!forum/swig-templates)
 * [StackOverflow](http://stackoverflow.com/questions/tagged/swig-template)
-* [Migration Guide](https://github.com/thunf/swiger/wiki/Migrating-from-v0.x.x-to-v1.0.0)
 
 
 How it works
