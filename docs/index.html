@@ -2,7 +2,7 @@
 {%- if DEV %}
   {% set baseurl = '' %}
 {% else %}
-  {% set baseurl = '/swig' %}
+  {% set baseurl = '/swiger' %}
 {% endif -%}
 
 {% block title %}{% parent %} - A Node.js and Browser JavaScript Template Engine{% endblock %}
@@ -40,7 +40,7 @@
 &lt;/ul&gt;{% endraw %}</code></pre>
 
       <h3>Render Your Template</h3>
-      <pre><code data-language="javascript">var swig  = require('swig');
+      <pre><code data-language="javascript">var swig  = require('swiger');
 swig.renderFile('/path/to/template.html', {
     pagename: 'awesome people',
     authors: ['Paul', 'Jim', 'Jane']
@@ -85,8 +85,7 @@ swig.renderFile('/path/to/template.html', {
 
        <ul>
          <li><a href="https://groups.google.com/forum/#!forum/swig-templates">Mailing List</a></li>
-         <li><a href="https://travis-ci.org/paularmstrong/swig/builds">Travis CI Build History</a></li>
-         <li><a href="https://github.com/paularmstrong/swig/issues">Bug Reports</a></li>
+         <li><a href="https://github.com/thunf/swiger/issues">Bug Reports</a></li>
          <li><a href="http://stackoverflow.com/questions/tagged/swig-template">Stack Overflow Questions</a></li>
          <li><a href="https://github.com/jonschlinkert/sublime-swig">Syntax Highlighting for Sublime Text</a></li>
        </ul>
