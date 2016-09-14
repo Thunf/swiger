@@ -1,0 +1,47 @@
+{% set varname = 'varname1' %}
+{% switch varname %}
+    default statement
+    {% case 'varname1' %}
+        statement1
+    {% case varname2 %}
+        statement2
+{% endswitch %}
+<br>// => statement1
+<hr>
+
+{% set varname = 'varname2' %}
+{% set varname2 = 'varname2' %}
+{% switch varname %}
+    default statement
+    {% case 'varname1' %}
+        statement1
+    {% case varname2 %}
+        statement2
+{% endswitch %}
+<br>// => statement2
+<hr>
+
+{% set varname = 'varname3' %}
+{% switch varname %}
+    default statement
+    {% case 'varname1' %}
+        statement1
+    {% case varname3 %}
+        statement3
+{% endswitch %}
+<br>// => default statement
+<hr>
+
+{% set varname = ''||null||undefined %}
+{# varname2 here is not set, so varname2 is undefined and will be set as '' #}
+{% switch varname %}
+    default statement
+    {% case 'varname1' %}
+        statement1
+    {% case varname3 %}
+        statement3
+{% endswitch %}
+<br>// => statement3
+
+
+

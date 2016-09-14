@@ -4,8 +4,8 @@ var http = require('http'),
 
 swig.setExtension('url', function (urlname) {
   var urls = {
-    dashboard: '/dashboard/',
-    settings: '/settings/'
+    dashboard: '/this/is/a/url/for/dashboard/',
+    settings: '/this/is/a/url/for/settings/'
   };
   return urls[urlname];
 });
