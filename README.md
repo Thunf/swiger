@@ -1,7 +1,7 @@
 Swig [![Build Status](http://img.shields.io/travis/thunf/swiger/master.svg?style=flat)](http://travis-ci.org/thunf/swiger) [![Dependency Status](http://img.shields.io/gemnasium/thunf/swiger.svg?style=flat)](https://gemnasium.com/thunf/swiger) [![NPM version](http://img.shields.io/npm/v/swiger.svg?style=flat)](https://www.npmjs.org/package/swiger) [![NPM Downloads](http://img.shields.io/npm/dm/swiger.svg?style=flat)](https://www.npmjs.org/package/swiger)
 ====
 
-[Swig](http://thunf.github.io/swiger/) is an awesome, Django/Jinja-like template engine for node.js.
+[Swiger](//thunf.github.io/swiger/) is an awesome, Django/Jinja-like template engine for node.js.
 
 
 Thanks
@@ -14,7 +14,7 @@ Thank Paul and previous swig collabs for their hard and excellent work!
 Documentation
 -------------
 
-All documentation can be viewed online on the [Swiger Website](http://thunf.github.io/swiger/).
+All documentation can be viewed online on the [Swiger Website](//thunf.github.io/swiger/).
 
 
 Features
@@ -28,7 +28,7 @@ Features
 * Lots of iteration and conditionals supported.
 * Robust without the bloat.
 * Extendable and customizable. See [Swig-Extras](https://github.com/paularmstrong/swig-extras) for some examples.
-* Great [code coverage](http://thunf.github.io/swiger/coverage.html).
+* Great [code coverage](//thunf.github.io/swiger/coverage.html).
 
 
 Installation
